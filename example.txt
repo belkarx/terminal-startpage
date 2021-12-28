@@ -1,0 +1,21 @@
+
+Group name
+-- category 1
+    - some link [example.com]
+    - whatever [example.com]
+    -- a subcategory
+        - just another link [example.com]
+
+-- category 2
+    # this category is unamed. also keep in mind 
+    that lines of text like this in categories 
+    show up in the final product, so you can 
+    use them for commentary, but remember to wrap
+    them with newlines
+    - some other link [example.com]
+    - why am i even making this [example.com]
+
+More stuffs
+-- another category
+    -- subcategory that is a link [example.com]
+        - yes [example.com]

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+body {
+  background-color: black;
+  background-image: url("assets/background.jpg"); /* fallback */	
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url("assets/background.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.tree-column {
+  margin-left: 10px;
+  margin-right: 50px;
+  color: white;
+  font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+  color:blue;
+}
+
+.meta {
+  color:white;
+}
+
+.weather-icon {
+  width: 70px;
+  height: 70px;
+  float:left;
+}
+
+.temp-desc {
+   color:grey;
+   float:left;
+}
