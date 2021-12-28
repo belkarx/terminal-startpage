@@ -1,4 +1,7 @@
 # Terminal-y Startpage
+
+![](startpage.png)
+
 ## Setup
 1. Clone the repository, then make an `unformatted.txt` file following the specifications in `example.txt`.
 
